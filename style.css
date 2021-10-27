@@ -1,0 +1,278 @@
+html{
+height: 100%;
+}
+
+.body{
+font-family:sans-serif;
+margin: 0;
+padding: 0;
+height: 100%;
+}
+
+.body-appetizers{
+    background-image: url('images/background2.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .body-food{
+    background-image: url('images/background2.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+
+/*===================HOME PAGE===================*/
+.body-home{
+background-image: url('images/background.jpg');
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.home-menu-item{
+text-decoration: none;
+text-transform:uppercase;
+color: black;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+border: 5px solid black;
+display: block;
+margin: auto;
+margin-bottom: 10px;
+width: 80%;
+}
+
+
+#home-logo-img{
+width: 50px;
+display: block;
+margin: auto;
+}
+#home-logo-text{
+width: auto;
+display: block;
+margin: auto;
+padding: 25px 10px 10px 10px;
+}
+/*===================APPETIZERS PAGE===================*/
+#appetizers{
+padding-top: 50px;
+
+}
+
+.appetizers-list a{
+text-decoration: none;
+}
+
+.appetizers-list-item{
+border: 5px solid black;
+margin: 10px;
+
+}
+
+.appetizers-list-item h1{
+font-weight: bold;
+font-size: 20px ;
+color: black;
+padding-left: 10px;
+
+}
+
+.appetizers-list-item i{
+float: right;
+color: darkmagenta;
+padding-right: 10px;
+
+
+}
+
+.appetizers-list-item p{
+font-size: 15px;
+font-style: oblique;
+color: darkmagenta;
+margin-top: -7px;
+
+
+}
+/*===================HEADER===================*/
+.header{
+background-color: white;
+width: 100%;
+height: 70px;
+top:0 ;
+position: fixed;
+overflow: hidden;
+text-align: center;
+
+
+}
+
+.header i{
+float: left;
+color: darkmagenta;
+padding: 40px 0px 0px 40px;
+
+
+}
+
+.header img{
+width: 90px;
+
+padding-right: 25px;
+
+
+}
+/*===================MENU PAGE===================*/
+.menu-details img{
+width: 100%;
+
+}
+.menu-details h1{
+font-size: 30px;
+text-align: center;
+}
+
+.menu-details-info{
+margin-left: 10px;
+margin-right: 10px;
+}
+.menu-details-info p{
+font-size: 13px;
+display: inline-block;
+
+}
+.menu-details-about h2{
+font-size: 25px;
+text-align: center;
+margin: 0;
+margin-left: 10px;
+color: blue;
+}
+.menu-details-about ol{
+list-style: square;
+margin-left: 10px;
+}
+
+
+textarea{
+width: 100%;
+}
+
+
+/*===================FOOD PAGE===================*/
+#food{
+padding-top: 50px;
+
+}
+
+.food-list a{
+text-decoration: none;
+}
+
+.food-list-item{
+border: 5px solid black;
+margin: 10px;
+
+}
+
+.food-list-item h1{
+font-weight: bold;
+font-size: 20px ;
+color: black;
+padding-left: 10px;
+
+}
+
+.food-list-item i{
+float: right;
+color: darkmagenta;
+padding-right: 10px;
+
+
+}
+
+.food-list-item p{
+font-size: 15px;
+font-style: oblique;
+color: darkmagenta;
+margin-top: -7px;
+}
+/*===============RESPONSIVE LAYOUT=============*/
+@media only screen and(min-width:600px){
+#menu{
+width: 80%;
+margin: auto;
+}
+
+#food{
+width: 80%;
+margin: auto;
+}
+
+#appetizers{
+width: 80%;
+margin: auto;
+}
+}
+@media only screen and(min-width:1000px){
+#menu{
+width: 60%;
+margin: auto;
+}
+    
+#food{
+width: 60%;
+margin: auto;
+}
+    
+#appetizers{
+width: 60%;
+margin: auto;
+}
+}
+
+@media only screen and(min-width:183px){
+.body-home{
+background-image: url('images/background.jpg');
+}
+.menu{
+background-image: url('images/background2.jpg');
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
